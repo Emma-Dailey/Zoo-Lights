@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class olin {
+public class inputs {
     Scanner scan = new Scanner(System.in);
     /* #ppl, first/last, date they want to attend
     (mm/dd/yy), discount code
@@ -25,7 +25,7 @@ public class olin {
         scan.nextLine();
         System.out.println("Your name: ");
         firstLast = scan.nextLine();
-        System.out.println("Desired date: ");
+        System.out.println("Desired date (mm/dd/yy): ");
         date = scan.nextLine();
         System.out.println("Discount code: ");
         discount = scan.nextLine();
@@ -62,7 +62,7 @@ public class olin {
             }
         }
 
-        System.out.println("Birthday: ");
+        System.out.println("Birthday (mm/dd/yy): ");
         bdate = scan.nextLine();
     }
     public int countPpl(){
